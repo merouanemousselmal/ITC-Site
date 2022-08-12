@@ -1,0 +1,17 @@
+Font : Montserrat ( Bold )
+Red hadek ( #BD3540 )
+Gris ( #1C1C1C )
+Black ( #0C0C0C )
+White
+hak rak
+input 
+output
+6 to 8 problem
+des senario
+1 er et 2 eme sahlin
+introduction 
+description
+hackrak
+ITC_WEBSITE
+ITc@2022
+card :#0C0C0C + shadow

@@ -1,0 +1,179 @@
+@media (max-width: 87.5rem) {
+  html {
+    font-size: 55%;  
+  }
+}
+
+@media (max-width: 77rem) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 70rem) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 63rem) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 56rem) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media (max-width: 49rem) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media (max-width: 42rem) {
+  html {
+    font-size: 25%;
+  }
+
+  .section-teams {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 42rem) {
+  header {
+    height: 10rem;
+    padding: 5.4rem;
+  }
+
+  .logo {
+    height: 10rem;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .main-nav {
+    background-color: rgba(189, 53, 64, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transition: all 0.5s ease-in;
+    transform: translateX(100%);
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*Hide it visually*/
+    opacity: 0;
+
+    /*Make it unaccessible to mouse and keyboard*/
+    pointer-events: none;
+
+    /*Hide it from screen readers*/
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translate(0);
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 8.2rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 7.4rem;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    transform: translate(-25%, 50%);
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-link.nav-cta:link,
+  .main-nav-link.nav-cta:visited {
+    padding: 1.2rem 2.4rem;
+    background-color: #fff;
+    border-radius: 9px;
+    color: #bd3540;
+  }
+
+  .section-teams {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .teams p {
+    padding: 0 8.2rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  .section-events {
+    grid-template-columns: 1fr;
+    padding: 0 25rem;
+    gap: 10rem;
+  }
+
+  .events h2 {
+    font-size: 4.8rem;
+  }
+
+  .events p {
+    padding: 0 10rem;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+
+  .other p {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    padding: 0 1.4rem;
+  }
+
+  .text {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    padding: 0 25rem;
+  }
+
+  .section-contact {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0 25rem;
+    gap: 2.2rem;
+  }
+
+  .form-box {
+    grid-column: 1/3;
+  }
+
+  .message-box {
+    grid-row: 2/3;
+    grid-column: 1/3;
+  }
