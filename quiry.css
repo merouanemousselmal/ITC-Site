@@ -1,6 +1,6 @@
 @media (max-width: 87.5rem) {
   html {
-    font-size: 55%;  
+    font-size: 55%;
   }
 }
 
@@ -177,3 +177,150 @@
     grid-row: 2/3;
     grid-column: 1/3;
   }
+}
+
+@media (max-width: 35rem) {
+  .section-who {
+    padding: 0 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-who {
+    grid-template-columns: 1fr;
+  }
+
+  .title-box {
+    width: 100rem;
+    height: 15rem;
+    background-color: #0c0c0c;
+    margin-bottom: 0;
+  }
+
+  .title-box h1 {
+    font-size: 7rem;
+    margin-right: 0;
+  }
+
+  .container-teams,
+  .container-events,
+  .container-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .events {
+    flex-direction: row-reverse;
+    padding: 1rem 0;
+  }
+
+  .events p {
+    display: none;
+  }
+
+  .hero-text-box .sharing {
+    display: none;
+  }
+
+  .hero-text-box p {
+    display: none;
+  }
+
+  .hero-img-box img {
+    display: none;
+  }
+
+  .hero-section {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.1fr;
+    gap: 0;
+  }
+
+  .hero-img-box {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 12rem;
+    margin-left: 2rem;
+  }
+
+  .mobile-hero-text-box {
+    display: flex;
+    text-align: center;
+    font-size: 4.2rem;
+    line-height: 7rem;
+  }
+
+  .mobile-hero-img-box {
+    display: flex;
+    justify-content: center;
+    height: 70%;
+  }
+
+  .mobile-sharing {
+    grid-column: -3/-1;
+    display: flex;
+    justify-content: center;
+    font-size: 8.4rem;
+  }
+
+  .who-text-box {
+    padding: 1.8rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .who-img-box img {
+    display: none;
+  }
+
+  .mobile-who-img-box {
+    display: block;
+  }
+
+  .mobile-hero-img-box img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 32.5rem) {
+  .mobile-sharing {
+    font-size: 6.8rem;
+  }
+
+  .mobile-hero-text-box {
+    font-size: 3.8rem;
+    line-height: 6rem;
+  }
+}
+
+@media (max-width: 28rem) {
+  html {
+    font-size: 21%;
+  }
+
+  .title-box h1 {
+    font-size: 6rem;
+  }
+
+  .teams p {
+    display: none;
+  }
+}
+
+@media (max-width: 22.5rem) {
+  html {
+    font-size: 18%;
+  }
+}
+
+@media (max-width: 18.75rem) {
+  html {
+    font-size: 17%;
+  }
+}

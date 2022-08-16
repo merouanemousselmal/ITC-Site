@@ -14,7 +14,7 @@
       rel="stylesheet"
       href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
     />
-    <link rel="icon" href="/imgs/welcomeday.png" />
+    <link rel="icon" href="/imgs/mobileheroimg.png" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="quiry.css" />
     <title>IT Community &#124; Home</title>
@@ -39,15 +39,26 @@
     <main>
       <section class="hero-section">
         <div class="hero-text-box">
-          INFORMATION <br />
-          TECHNOLOGY <br />
-          COMMUNITY <br />
+         <p> INFORMATION <br/></p>
+         <p>TECHNOLOGY <br /></p>
+         <p>COMMUNITY <br /></p>
           <div class="sharing">Sharing is Caring</div>
+          <div class="mobile-hero-img-box">
+          <img src="/imgs/mobileheroimg.png" alt="">
+        </div>
         </div>
 
         <div class="hero-img-box">
           <img src="/imgs/it.png" alt="IT" />
+          <div class="mobile-hero-text-box">
+            INFORMATION <br />
+            TECHNOLOGY <br />
+            COMMUNITY <br /> 
+          </div>
         </div>
+        <div class="empty1"></div>
+        <div class="mobile-sharing">sharing is caring</div>
+        <div class="empty2"></div>
       </section>
 
       <section class="section-who">
@@ -68,10 +79,15 @@
           <div class="who-img-box">
             <img src="/imgs/photo.png" alt="Group photo of ITC team members" />
           </div>
+          <div class="mobile-who-img-box">
+            <img src="/imgs/itccommunity.jpg" alt="Group photo of ITC team members" />
+          </div>
         </div>
       </section>
 
-      <div class="title-box" id="teams"><h1>Our Teams</h1></div>
+      
+      <div class="container-teams"> 
+        <div class="title-box" id="teams"><h1>Our Teams</h1></div> 
       <section class="section-teams">
         <div class="teams">
           <img src="/imgs/web.png" alt="Design team" />
@@ -161,13 +177,16 @@
             voluptatem optio dolorem rerum, asperiores libero totam.
           </p>
         </div>
+      </div>
       </section>
 
-      <div class="title-box" id="events"><h1>Our Events</h1></div>
+      <div class="container-events">
+        <div class="title-box" id="events"><h1>Our Events</h1></div>
       <section class="section-events">
         <div class="events">
-          <h2>ITC TALKS</h2>
+          <h2 class="event-name">ITC TALKS</h2>
           <img src="/imgs/itctalks.png" alt="ITC Talks" />
+        
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
             odit natus, accusantium, possimus sit commodi adipisci fugit
@@ -186,7 +205,7 @@
           </p>
         </div>
         <div class="events">
-          <h2>Welcome Day</h2>
+          <h2 class="event-name">Welcome Day</h2>
           <img src="/imgs/welcomeday.png" alt="ITC logo" />
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
@@ -206,7 +225,7 @@
           </p>
         </div>
         <div class="events">
-          <h2>Pink October</h2>
+          <h2 class="event-name">Pink October</h2>
           <img src="/imgs/pink.png" alt="Pink October" />
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
@@ -226,7 +245,7 @@
           </p>
         </div>
         <div class="events">
-          <h2>ITC Orientation</h2>
+          <h2 class="event-name">ITC Orientation</h2>
           <img src="/imgs/orientation.png" alt="ITC Orientation" />
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
@@ -246,7 +265,7 @@
           </p>
         </div>
         <div class="events">
-          <h2>Mini Start-up</h2>
+          <h2 class="event-name">Mini Start-up</h2>
           <img src="/imgs/ministartup.png" alt="Mini startup" />
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
@@ -266,7 +285,7 @@
           </p>
         </div>
         <div class="events">
-          <h2>Gaming day</h2>
+          <h2 class="event-name">Gaming day</h2>
           <img src="/imgs/gaming.png" alt="Events" />
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
@@ -301,9 +320,12 @@
             aut odio dolore temporibus.
           </p>
         </div>
+      </div>
       </section>
 
+      <div class="container-contact">
       <div class="title-box"><h1>Contact Us</h1></div>
+      </div>
       <div class="text">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam
         inventore exercitationem asperiores animi velit eligendi repellat a
@@ -350,7 +372,8 @@
           <button class="btn">Send</button>
         </div>
       </section>
-
+     
+    
       <footer>
         <img src="/imgs/welcomeday.png" alt="ITC logo" />
         <div class="social-icons">

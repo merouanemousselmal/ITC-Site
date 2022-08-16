@@ -25,7 +25,7 @@ White: #fff
 }
 
 html {
-  font-size: 62.5%; 
+  font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -104,6 +104,7 @@ header {
 .hero-section {
   display: grid;
   grid-template-columns: 40fr 60fr;
+  grid-template-rows: none;
   gap: 9.8rem;
   padding: 4.8rem;
   margin-bottom: 9.8rem;
@@ -118,10 +119,13 @@ header {
   margin-top: 3rem;
   width: 100%;
   height: 100%;
+}
+
+.hero-text-box p {
   text-align: center;
   font-size: 2.8rem;
   font-weight: 700;
-  line-height: 4rem;
+  line-height: 1rem;
   letter-spacing: 0.2rem;
 }
 
@@ -131,6 +135,22 @@ header {
 
 .sharing {
   font-size: 5rem;
+}
+
+.mobile-hero-img-box {
+  display: none;
+}
+
+.mobile-hero-text-box {
+  display: none;
+}
+
+.mobile-sharing {
+  display: none;
+}
+
+.mobile-who-img-box {
+  display: none;
 }
 
 .title-box {
@@ -171,6 +191,10 @@ header {
 }
 
 .who-img-box img {
+  max-width: 100%;
+}
+
+.mobile-who-img-box img {
   max-width: 100%;
 }
 
@@ -222,8 +246,9 @@ header {
   box-shadow: 0 2rem 4.8rem rgba(0, 0, 0, 0.073);
 }
 
-.events h2 {
+.event-name {
   font-size: 3.8rem;
+  color: #fff;
 }
 
 .events img {
